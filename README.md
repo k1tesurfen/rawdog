@@ -28,7 +28,7 @@ Traditional photo editors are heavy and slow. `rawdog` is built for one thing: *
 
 |         Keep (J / ↑)         |          Reject (K / ↓)          |
 | :--------------------------: | :------------------------------: |
-| ![Keep Screenshot](keep.png) | ![Reject Screenshot](reject.png) |
+| ![Keep Screenshot](keep.jpg) | ![Reject Screenshot](reject.jpg) |
 
 ## Installation
 
@@ -47,6 +47,7 @@ npm run tauri build
 ```
 
 The application bundle will be available in `src-tauri/target/release/bundle/macos/rawdog.app`.
+Typically the post build script will offer the installation of rawdog like a typical macOS app.
 
 ## Usage
 
