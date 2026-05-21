@@ -1,0 +1,19 @@
+[[permission]]
+identifier = "allow-get-images"
+description = "Allows the get_images command"
+commands.allow = ["get_images"]
+
+[[permission]]
+identifier = "allow-update-status"
+description = "Allows the update_status command"
+commands.allow = ["update_status"]
+
+[[permission]]
+identifier = "allow-finish-culling"
+description = "Allows the finish_culling command"
+commands.allow = ["finish_culling"]
+
+[[permission]]
+identifier = "allow-start-scanning"
+description = "Allows the start_scanning command"
+commands.allow = ["start_scanning"]
