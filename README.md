@@ -2,7 +2,7 @@
 
 **The Fastest Photo Culling Tool for macOS.**
 
-`rawdog` is a high-performance, terminal-first photo culling application designed for professional photographers who need to triage large sets of RAW images with zero latency.
+`rawdog` is a high-performance, terminal-first photo culling application designed for photographers who need to triage large sets of RAW images with zero latency.
 
 <p align="center">
   <img src="rawdog-icon.png" width="200" alt="rawdog icon">
@@ -36,7 +36,7 @@ Ensure you have [Rust](https://rustup.rs/) and [Node.js](https://nodejs.org/) in
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/rawdog.git
+git clone https://github.com/k1tesurfen/rawdog.git
 cd rawdog
 
 # Install dependencies
@@ -88,6 +88,7 @@ Built with **Tauri v2**, **Rust**, and **Vanilla TypeScript**.
 - Backend: Rust + `sips` + `tauri-plugin-dialog`
 - Frontend: Vite + TypeScript
 
----
+## Next Steps
 
-_Note: rawdog is currently in active personal use. We are not seeking external contributions at this time._
+- UI polishing
+- Settings for "rejected"-folder naming and keyboard shortcuts
